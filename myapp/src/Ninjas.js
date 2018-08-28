@@ -1,6 +1,7 @@
 import React from "react";
 
 const Ninjas = ({ ninjas }) => {
+  // const { ninjas } = this.props;
   // const ninjaList = ninjas.map(ninja => {
   //   if (ninja.age > 20) {
   //     return (
@@ -14,6 +15,7 @@ const Ninjas = ({ ninjas }) => {
   //     return null;
   //   }
   // });
+
   return (
     <div className="ninja-list">
       {ninjas.map(ninja => {
